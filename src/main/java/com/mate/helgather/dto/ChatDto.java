@@ -17,5 +17,5 @@ public class ChatDto {
     @NotNull(message = "시간은 필수 입니다.")
     private String time; // 시간은 프론트에서 담아서 보내줄
     private boolean isFirst;
-    private int userProfile;
+    private String userProfile;
 }
